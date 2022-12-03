@@ -73,5 +73,6 @@ public class OrderCreateCommandHandler {
             throw new OrderDomainException("Couldn't save order!");
         }
         log.info("Order is saved with id: {}", orderResult.getId().getValue());
+        return orderResult;
     }
 }
