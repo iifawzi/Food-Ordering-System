@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136d2143-8fa5-409b-a2b0-75fefcbb53eb" name="Changes" comment="Initializing the project">
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/com/food/ordering/system/order/service/domain/OrderApplicationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/com/food/ordering/system/order/service/domain/OrderTestConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/food/ordering/system/order/service/domain/OrderCreateCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/food/ordering/system/order/service/domain/OrderCreateCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/food/ordering/system/order/service/domain/mapper/OrderDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/main/java/com/food/ordering/system/order/service/domain/mapper/OrderDataMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/com/food/ordering/system/order/service/domain/OrderApplicationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/com/food/ordering/system/order/service/domain/OrderApplicationServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/com/food/ordering/system/order/service/domain/OrderTestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-application-service/src/test/java/com/food/ordering/system/order/service/domain/OrderTestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-domain/order-domain-core/src/main/java/com/food/ordering/system/order/service/domain/entity/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,23 +62,92 @@
       <recent name="com.food.ordering.system.order.service.domain.dto.create" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="FoodOrderingDDD" />
+  <component name="RunManager" selected="JUnit.com.food.ordering.system.order.service.domain in order-application-service">
+    <configuration name="OrderApplicationServiceTest.testCreateOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.food.ordering.system.order.service.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.food.ordering.system.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.food.ordering.system.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="testCreateOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationServiceTest.testCreateOrderWithPassiveRestaurant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.food.ordering.system.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.food.ordering.system.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.food.ordering.system.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="testCreateOrderWithPassiveRestaurant" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationServiceTest.testCreateOrderWithWrongProductPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.food.ordering.system.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.food.ordering.system.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.food.ordering.system.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="testCreateOrderWithWrongProductPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplicationServiceTest.testCreateOrderWithWrongTotalPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.food.ordering.system.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.food.ordering.system.order.service.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.food.ordering.system.order.service.domain.OrderApplicationServiceTest" />
+      <option name="METHOD_NAME" value="testCreateOrderWithWrongTotalPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.food.ordering.system.order.service.domain in order-application-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.food.ordering.system.order.service.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.food.ordering.system.order.service.domain" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.com.food.ordering.system.order.service.domain in order-application-service" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.testCreateOrderWithPassiveRestaurant" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.testCreateOrderWithWrongProductPrice" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.testCreateOrderWithWrongTotalPrice" />
+        <item itemvalue="JUnit.OrderApplicationServiceTest.testCreateOrder" />
       </list>
     </recent_temporary>
   </component>
